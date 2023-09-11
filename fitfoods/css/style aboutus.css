@@ -1,0 +1,85 @@
+
+ 
+ 
+ @font-face {
+  font-family: Byekan;
+  src: url(../fonts/Byekan.ttf) format("truetype"),
+    url(../fonts/Byekan.woff) format("woff");
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../fonts/lalezar.ttf) format("treutype"),
+    url(../fonts/lalezar.woff) format("woff");
+}
+
+body {
+  direction: rtl;
+  font-family: Byekan;
+}
+body {
+  background-color: #c8b393;
+}
+  
+  header {
+    background-color: #0eae4d;
+    padding: 5px;
+  }
+nav{
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+  }
+  
+  .img-restaurant {
+    
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  .img-restaurant img {
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-restaurant {
+    width: 50%;
+    padding: 30px;
+  }
+  h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  footer p {
+    font-size: 18px;
+  }
